@@ -1,0 +1,88 @@
+* {
+  color: #ffffff;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #07080c;
+}
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.image {
+  width: 300px;
+  height: 125px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 600px;
+    height: 300px;
+  }
+}
+.speed-title {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .speed-title {
+    font-size: 40px;
+  }
+}
+.speed-limits {
+  font-size: 11px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .speed-limits {
+    font-size: 15px;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 90px;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.brake-btn {
+  background-color: #07080c;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  margin-left: 10px;
+}
